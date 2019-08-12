@@ -15,7 +15,7 @@ public class Login {
 		driver=new ChromeDriver();
 		driver.get("https://www.amazon.com/");
 		System.out.println(driver.getTitle());
-		System.out.println(driver.getCurrentUrl());
+		
 		driver.close();
 	}
 
